@@ -41,7 +41,7 @@ header img {
 header {
     display: grid;
     grid-template-columns: repeat(5, 1fr);
-    grid-template-rows: 1 fr 6em;
+    grid-template-rows: 1fr 6em;
     grid-gap: 10px;
     height: 300px;
     box-shadow: 1px 1px 4px 1px #ccc;
