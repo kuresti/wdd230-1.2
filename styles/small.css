@@ -39,6 +39,7 @@ header {
     grid-template-rows: 1 fr 6em;
     grid-gap: 10px;
     height: 300px;
+    width: 750px;
     box-shadow: 1px 1px 4px 1px #ccc;
 
 }
