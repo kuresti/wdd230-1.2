@@ -9,14 +9,24 @@
     <meta name="author" content="Kimberly Uresti">
     <meta name="description" content="Assignment portal for Kimberly Uresti WDD230: Web Frontend Development Brigham Young University-Idaho">
     <title>kuresti WDD230 Home Page</title>
+    <!--CSS styles-->
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
     
 </head>
 <body>
     <header>
+        <div class="header-box">
         <!--ID photo Kimberly Uresti-->
-        <img src="images/kimpicwdd230.jpg" alt="Photo of Kimberly Uresti">
-        <!--Main Heading-->
-        <h1>Kimberly Uresti</h1>
+        <img class="header-box-image" src="images/kimpicwdd230.jpg" alt="Photo of Kimberly Uresti">
+        <!--Main Heading-->        
+        </div>
+        <div class="header-box-name">
+            <h1 class=>Kimberly Uresti</h1>
+        </div>
+    
     </header>
     <main>
         <h2>WDD 230: Lesson Portal</h2>
@@ -66,13 +76,13 @@
     <footer>
         &copy; 2022| Kimberly Uresti | Arizona |
         <a href="https://www.byui.edu/online">BYUI Online Learning</a> 
-        | Today's date: <span id="currentdate"></span>        <br>
+        | Today's date: <span id="currentdate"></span>
+        <br>
+        Last Modified: <span id="lastmodified"></span>
+        <script src="scripts/lastmodified.js"></script>
 
     </footer>
-    <script>
-        // toLocaleDateString
-        const options = {weekday: 'long', day: 'numeric', month: 'long', year:'numberic'};
-        document.getElementById('currentdate').textContent = new Date().toLocaleDateString('en-US', options);
-    </script>
+    <script src="scripts/date.js"></script>
+    
 </body>
 </html>
