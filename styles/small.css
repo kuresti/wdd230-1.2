@@ -2,7 +2,10 @@
     margin: 0;
     box-sizing: border-box;
 }*/
-
+#content {
+    max-width: 960px;
+    margin: 0 auto;
+}
 body {
     font: 1em;
     font-family: 'Open Sans', sans-serif;
@@ -25,6 +28,7 @@ header,
 footer {
     text-align: center;
     background-color: rgb(46, 61, 106);
+    width: 750px;
 }
 
 header img {
@@ -39,7 +43,6 @@ header {
     grid-template-rows: 1 fr 6em;
     grid-gap: 10px;
     height: 300px;
-    width: 750px;
     box-shadow: 1px 1px 4px 1px #ccc;
 
 }
