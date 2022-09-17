@@ -22,7 +22,6 @@ h2 {
     font-size: 1rem;
     text-align: left;
     border-bottom: 2px solid black;
-    
 }
 
 header,
@@ -30,6 +29,7 @@ footer {
     text-align: center;
     background-color: rgb(46, 61, 106);
     width: 750px;
+    color:#ccc;
 }
 
 header img {
@@ -62,7 +62,7 @@ header {
 }
 
 footer {
-    height: 80px;
+    height: 85px;
 }
 
 #lastmodified {
