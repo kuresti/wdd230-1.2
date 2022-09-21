@@ -62,7 +62,11 @@ header {
 }
 
 footer {
-    height: 85px;
+    height: 90px;
+}
+
+.BYUIlink {
+    color:rgb(147, 147, 205)
 }
 
 #lastmodified {
