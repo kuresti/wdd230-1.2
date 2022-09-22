@@ -45,6 +45,7 @@ header img {
     width: auto;
     height: auto;
     border: 1px solid black;
+    margin-right: 50px;
 }
 
 header {
@@ -64,7 +65,7 @@ header {
 }
 
 .header-box-name {
-    grid-column: 1 / span 4 ;
+    grid-column: 1 / span 3 ;
     grid-row: 1;
     text-align: center;
     margin-top: 90px;
