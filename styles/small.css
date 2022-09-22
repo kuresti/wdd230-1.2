@@ -8,11 +8,15 @@
 }
 body {
     font: 1em;
-    font-family: 'Open Sans', sans-serif;
     line-height: 1.5;
     color: black;
 }
 
+h1,
+h2,
+h3 {
+    font-family: 'Encode Sans', 'Open Serif', sans-serif;
+}
 h1 {
     font-size: 1.5rem;
     color: #ccc;
@@ -24,12 +28,17 @@ h2 {
     border-bottom: 2px solid black;
 }
 
+.lessonLinks {
+    font-family: 'Lora', 'Open Serif', sans-serif;
+}
+
 header,
 footer {
     text-align: center;
     background-color: rgb(1, 10, 35);
     width: 750px;
     color:#ccc;
+    font-family: 'Encode Sans', 'Open Serif', sans-serif;
 }
 
 header img {
