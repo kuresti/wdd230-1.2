@@ -22,6 +22,7 @@ header h1 {
 header h2 {
     font-size: 1rem;
     font-family: 'Encode Sans', 'Open Serif', sans-serif;
+    color:#ccc;
 }
 
 header,
@@ -45,14 +46,19 @@ p {
 
 #p1,
 #p2,
-#pe {
+#p3 {
     text-align: center;
 }
 
 button {
     background-color: rgb(161, 181, 238);
     color: black;
+    width: 100px;
+    height: 40px;
     border-radius: 10px;
+    margin-bottom: 50px;
+    font-size: 1.25rem;
+    font-weight: 600;
 }
 
 main {
@@ -61,5 +67,61 @@ main {
 }
 
 h3 {
-    
+    background-color: white;
+    color: black;
+    text-align: center;
+    font-family: 'Encode Sans', 'Open Serif', sans-serif;
+}
+
+main picture {
+    display: block;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+main {
+    display: grid;
+    grid-template-columns: 1fr;
+    font-size: 1rem;
+}
+
+main section {
+    margin: 0.5rem;
+    border: 1px solid black;
+    padding: 0 1rem;
+    color: white;
+    background-color: black;
+    border-radius: 10px;
+}
+
+/*section:nth-child(2) {
+    display: none;
+    margin: 0 0.5rem;
+}*/
+
+footer {
+    margin-bottom: 10px;
+}
+
+.BYUIlink {
+    color:rgb(147, 147, 205)
+}
+
+#copyright {
+    text-align: center;
+}
+
+#info {
+    margin-top: 10px;
+}
+
+h2 {
+    color: black;
+}
+
+p {
+    text-align: left;
 }
