@@ -50,6 +50,12 @@ p {
     text-align: center;
 }
 
+#walmart,
+#squarespace,
+#unitedHealthcare {
+    color: rgb(147, 147, 205);
+}
+
 button {
     background-color: rgb(161, 181, 238);
     color: black;
