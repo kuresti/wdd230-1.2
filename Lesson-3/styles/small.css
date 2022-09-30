@@ -1,0 +1,66 @@
+/*Default rules*/
+/*Rules for body of pg*/
+body {
+    font-size: 100%;
+    font-family: 'Open Sans', sans-serif;
+    max-width: 750px;
+    margin: 0 auto;
+    line-height: 2.5rem;
+}
+header {
+    width: 95%;
+    padding: .5rem 2%;
+}
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+}
+header h2 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+header, footer {
+    text-align: center;
+    background-color: rgb(1, 10, 35);
+    color: #ccc;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: solid thin black;
+}
+.wrapper {
+    max-width: 730px;
+    padding-right: 10px;
+    padding-left: 10px;
+    justify-content: center;
+    align-content: flex-start;
+    align-items: flex-start;
+}
+nav {
+    font-size: 1rem;
+    background-color: #4AC7AB;
+}
+nav ul {
+    list-style: none;
+    overflow: hidden;
+    border-radius: 5px;
+    padding: 0;
+    margin: 0;
+}
+nav li {
+    flex: 1 1 100%;
+}
+nav li a:hover {
+    background-color: #2E688A;
+}
+nav li a {
+    display: block;
+    color: #161A25;
+    font-weight: 900;
+    text-align: center;
+    margin: 10px;
+    box-shadow: 2px 5px;
+}
+nav li a:link {
+    text-decoration: none;
+}
+
