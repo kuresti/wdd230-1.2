@@ -69,12 +69,14 @@ nav li a:link {
 }
 .accent1 {
     background-color: #2E688A;
+    color: whitesmoke;
 }
 .accent2 {
     background-color: #308BB9;
 }
 .accent3 {
     background-color: #507083;
+    color: whitesmoke;
 }
 .accent4 {
     background-color: #161A25;
