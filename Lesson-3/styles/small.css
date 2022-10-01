@@ -66,6 +66,7 @@ nav li a:link {
 }
 .primary {
     background-color: #4AC7AB;
+    font-weight: 500;
 }
 .accent1 {
     background-color: #2E688A;
@@ -73,6 +74,7 @@ nav li a:link {
 }
 .accent2 {
     background-color: #308BB9;
+    font-weight: 500;
 }
 .accent3 {
     background-color: #507083;
