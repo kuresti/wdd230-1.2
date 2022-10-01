@@ -50,7 +50,8 @@ nav li {
     flex: 1 1 100%;
 }
 nav li a:hover {
-    background-color: #2E688A;
+    background-color: #507083;
+    color: whitesmoke;
 }
 nav li a {
     display: block;
